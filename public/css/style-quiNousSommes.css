@@ -1,0 +1,106 @@
+.containerAll {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+
+}
+
+.divProjet{
+    position: relative;
+    width: 100%;
+    padding: 50px;
+}
+
+
+
+.projet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin: 20px;
+
+    shape-outside: circle();
+}
+
+
+.projet:nth-child(odd){
+    flex-direction: row;
+}
+
+.projet:nth-child(odd) img{
+    float: left;
+}
+
+.projet:nth-child(even){
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.projet:nth-child(even) img{
+    float: right;
+}
+
+
+.presentionDirecteur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+    width: 90%;
+    background: white;
+    padding: 15px;
+}
+
+.presentionDirecteur .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentionDirecteur img{
+    height: 250px;
+    width: 200px;
+}
+
+.presentionDirecteur .info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: lightblue;
+}
+
+.presentionDirecteur .nom {
+    font-size: 22px;
+}
+
+.presentionDirecteur .status{
+    font-size: 15px;
+    color: darkgray;
+}
+
+.autreRebrique{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.autreRebrique .rebrique{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 15px;
+    text-align: center;
+}

@@ -1,0 +1,145 @@
+.boxMonCompte{
+    margin: 2%;
+    width: 100%;
+
+}
+
+.divMonCompte{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    left: 5%;
+    margin: 10px 0;
+}
+
+.barreNavigation{
+    position: sticky;
+    width: 30%;
+    top: 2%;
+    display: block;
+    float: left;
+}
+
+
+.divBannirMembre form{
+    margin: 20px 30px;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.divBannirMembre h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.boxMonCompte{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divMonCompte{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.barreNavigation{
+    width: 25%; 
+}
+
+.divBannirMembre{
+    width: 75%; 
+}
+
+.divBannirMembre{
+    margin: 20px 30px;
+    padding: 15px;
+    background: linear-gradient(70deg, rgb(15, 184, 226), rgb(77, 210, 255));
+    border-radius: 15px;
+    color: white;
+}
+
+.divBannirMembre h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+textarea {
+    border-radius: 15px;
+    line-height: 1.5;
+    resize: none;
+    width: 100%;
+    text-align: center;
+}
+
+.divInput input {
+    width: 40%;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0 5px;
+    background: white;
+}
+
+.divBannirMembre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.divBannirMembre table {
+  width: 100%;
+  border: 1px solid lightgrey;
+  color: grey;
+  background: #fff;
+  display: block;
+  text-align: center;
+}
+
+
+
+.divBannirMembre table td,.divBannirMembre table th{
+  min-width: 100%;
+  background: #fff;
+  border:  1px solid lightgrey;
+}
+
+
+table th {
+  font-size: 20px;
+}
+
+tr {
+  width: 100%;
+}
+
+.btn{
+  padding: 15px 20px;
+  background: linear-gradient(-30deg, #002233 50%, #2b0808 50%);
+  color: #ccffdd;
+}

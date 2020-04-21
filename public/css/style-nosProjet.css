@@ -1,0 +1,52 @@
+.containerAll {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+
+}
+
+.divProjet{
+    position: relative;
+    width: 100%;
+    padding: 50px;
+}
+
+
+
+.projet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.circle img{
+    shape-outside: circle();
+}
+
+
+.projet:nth-child(odd){
+    flex-direction: row;
+}
+
+.projet:nth-child(odd) img{
+    float: left;
+}
+
+.projet:nth-child(even){
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.projet:nth-child(even) img{
+    float: right;
+}
+
+

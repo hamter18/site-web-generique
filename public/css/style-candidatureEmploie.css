@@ -1,0 +1,156 @@
+.containerAll {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+
+.infoGeneral{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoGeneral .info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.partieDroite{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.carte{
+    border: 1px solid grey;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(70deg, rgb(15, 184, 226), rgb(77, 210, 255));
+}
+
+.carte img {
+    width: 100%;
+    height: auto;
+}
+
+.carte .option {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.partieDroite .detailDeLOffre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partieGauche {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.infoDetaillee{
+    text-align: justify;
+    padding: 20px;
+}
+
+.infoDetaillee h4 {
+    margin: 0;
+}
+
+.infoDetaillee p {
+    font-size: 15px;
+}
+
+.postuler{
+    border: 1px solid grey;
+    padding: 15px;
+    width: 90%;
+    margin-top: 30px;
+    background: lightsteelblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.postuler .formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.formulaire .informationsPersonelle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.formulaire .information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formulaire .information label{
+    width: 100%;
+    margin: 5px 10px;
+}
+
+.formulaire .information input[type=button]{
+    margin: 0 15px;
+    padding: 5px;
+    width: 250px;
+}
+
+.formulaire .information input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+
+.buttonAction{
+    background: linear-gradient(-30deg, #002233 50%, #2b0808 50%);
+    padding: 15px 25px;
+    margin: 5px;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    overflow: hidden;
+    color: #ccffdd;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  }

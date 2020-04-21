@@ -1,0 +1,98 @@
+.boxMonCompte{
+    margin: 2%;
+    width: 100%;
+
+}
+
+.divMonCompte{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    left: 5%;
+    margin: 10px 0;
+}
+
+.barreNavigation{
+    position: sticky;
+    width: 30%;
+    top: 2%;
+    display: block;
+    float: left;
+}
+
+.divInfoMembres{
+    width: 100%;
+    margin: 20px 30px;
+    padding: 15px;
+    background: linear-gradient(70deg, rgb(15, 184, 226), rgb(77, 210, 255));
+    border-radius: 15px;
+    color: white;
+}
+
+.divInfoMembres h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+input{
+    background: #ffff;
+}
+
+
+
+.infoMembre {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+    width: 100%;
+    margin: 15px;
+}
+
+.infoMembre .info{
+    margin: 15px;
+}
+
+.infoMembre .image{
+    margin: 15px;
+}
+
+.infoMembre p label{
+    font-size: 18px;
+}
+
+.infoMembre span a{
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.infoMembre .info span{
+    font-size: 13px;
+}
+
+
+
+.info form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h4 {
+    font-size: 20px;
+}
+
+
+
+.infoMembre img{
+      height: 250px;
+      width: 250px;
+  }
+
+
+  

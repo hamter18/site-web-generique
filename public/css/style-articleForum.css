@@ -1,0 +1,138 @@
+.containerAll {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.divArticleForum{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.divArticleForum p {
+    text-align: center;
+}
+
+
+.ajouterCommentaire{
+
+    color: grey;
+    padding: 5px 20px;
+    margin: 20px;
+}
+
+.infoCommentaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border : 1px solid grey;
+}
+
+
+.infoCommentaire .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.infoCommentaire{
+    padding: 0;
+    margin: 0;
+
+}
+.optionCommentaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border : 1px solid grey;
+    font-size: 12px;
+    padding: 0 5px;
+    margin:0;
+}
+
+textarea{
+    width: 100%;
+    margin: 0;
+}
+
+#filtreAvance {
+    display: none;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.btnAjout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btnPublier {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textCommentaire{
+    width: 100%;
+    background-color: #fff;
+    border : 1px solid grey;
+    font-size: 12px;
+    padding: 20px;
+    margin: 0;
+}
+
+
+.ajoutCommentaire{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border : 1px solid grey;
+}
+
+.ajoutCommentaire .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.ajoutCommentaire{
+    padding: 0;
+    margin: 0;
+}
+
+#ajoutDiv {
+    display: none;
+    border-bottom: 2px solid #b3b3b8;
+    padding-bottom: 5%;
+}
+
+.textCommentaire{
+    width: 100%;
+    margin: 0;
+}
+
+.commentaireArticle{
+    padding-top: 5%;
+}
+
+#listCom{
+    display: none;
+}

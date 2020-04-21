@@ -1,0 +1,62 @@
+.boxMonCompte{
+    margin: 2%;
+    width: 100%;
+
+}
+
+.divMonCompte{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    left: 5%;
+    margin: 10px 0;
+}
+
+.barreNavigation{
+    position: sticky;
+    width: 30%;
+    top: 2%;
+    display: block;
+    float: left;
+}
+
+.divModifierSite{
+    width: 100%;
+    margin: 20px 30px;
+    padding: 15px;
+    background: linear-gradient(70deg, rgb(15, 184, 226), rgb(77, 210, 255));
+    border-radius: 15px;
+    color: white;
+}
+
+.divModifierSite h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+textarea {
+    border-radius: 15px;
+    line-height: 1.5;
+    resize: none;
+    width: 100%;
+    text-align: center;
+}
+
+.borderAction input, .borderAction select{
+    width: 40%;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0 5px;
+}
+
+input {
+  background: #ffff;
+}
+
+.borderAction form, .borderAction .article {
+  margin-bottom: 10px;
+}

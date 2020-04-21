@@ -1,0 +1,151 @@
+.boxConnexion{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    background: rgba(0,0,0, .8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+
+.boxConnexion h2 {
+    margin : 0 0 30px;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.boxConnexion .inputBox{
+    position: relative;
+}
+
+.boxConnexion .inputBox input{
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    border : none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+}
+
+.boxConnexion .inputBox label{
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    pointer-events: none;
+    transition: .5s
+}
+
+
+.boxConnexion input[type="submit"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    background: yellowgreen;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divConnexion{
+    display: flex;
+    flex-direction: row;
+}
+
+.alignementLogo{
+    display: flex;
+    align-items: center;
+}
+
+i{
+    margin: 0 5px;
+}
+
+
+.containerInput {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .containerInput input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .containerInput:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .containerInput input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  .containerInput input:checked ~ .check {
+    color: white;
+}
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .containerInput input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+
+
+  /* Style the checkmark/indicator */
+  .containerInput .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 10px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }

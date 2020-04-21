@@ -1,0 +1,273 @@
+.slidershow {
+	width: 800px;
+	height: 450px;
+	overflow: hidden;
+}
+
+.navigation {
+	position: sticky;
+	bottom: 20px;
+	left: 50%;
+	display: flex;
+}
+
+.bar {
+	width: 50px;
+	height: 10px;
+	border: 2px solid rgb(0, 0, 0);
+	margin: 6px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.bar:hover {
+	background: #fff;
+}
+
+input[name="r"] {
+	position: absolute;
+	visibility: hidden;
+}
+
+.slides {
+	margin: 10px;
+	width: 500%;
+	height: 100%;
+	display: flex;
+}
+
+.slide {
+	width: 20%;
+	transition: 0.6s;
+}
+
+.slide img {
+	width: 100%;
+	height: 100%;
+}
+
+#r1:checked~.s1 {
+	margin-left: 0;
+}
+
+#r2:checked~.s1 {
+	margin-left: -20%;
+}
+
+#r3:checked~.s1 {
+	margin-left: -40%;
+}
+
+#r4:checked~.s1 {
+	margin-left: -60%;
+}
+
+#r5:checked~.s1 {
+	margin-left: -80%;
+}
+
+.vertical-menu {
+	width: 250px;
+	overflow: auto;
+	height: 450px;
+	margin: 10px;
+}
+
+.vertical-menu img {
+	width: 100%;
+	height: 100%;
+}
+
+.vertical-menu a {
+	display: inline-block;
+	background-color: #eee;
+	color: black;
+	padding: 12px;
+	text-decoration: none;
+}
+
+.vertical-menu a:hover {
+	background-color: #ccc;
+}
+
+.vertical-menu a.active {
+	background-color: #23a6d5;
+	color: white;
+}
+
+.card {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+}
+
+.presentation-card {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.liste-card {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+h2 {
+	color: rgb(7, 59, 77);
+	padding-left: 10px;
+}
+
+.button {
+	border-radius: 4px;
+	background-color: #1a33a3;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+	padding: 10px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.flip-card {
+	background-color: transparent;
+	width: 350px;
+	height: 200px;
+	border: 1px solid #f1f1f1;
+	perspective: 1000px;
+}
+
+.flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+}
+
+.flip-card-front {
+	background-color: #bbb;
+	color: black;
+}
+
+.flip-card-back {
+	background-color: dodgerblue;
+	color: white;
+	transform: rotateY(180deg);
+}
+
+.topic-groupe {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.topic table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.topic th, td {
+	text-align: left;
+	padding: 14px;
+}
+
+.topic tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.presentation {
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	align-content: center;
+}
+
+.presentation-principal {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+	padding: 10px;
+}
+
+.presentation-gauche {
+	width: 50%;
+}
+
+.presentation-container p {
+	overflow-wrap: break-word;
+	margin: 10px;
+	text-align: center;
+}
+
+.presentation-container img {
+	width: 100%;
+	margin: 10px;
+	height: 200px;
+}
+
+.presentation-alignement {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+}
+
+.presentation-lien {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.presentation-lien a {
+	text-decoration: none;
+}
+
+.presentation-video video {
+	width: 100%;
+}

@@ -1,0 +1,36 @@
+.boxMonCompte{
+    margin: 2%;
+    width: 100%;
+
+}
+
+.divMonCompte{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    left: 5%;
+    margin: 10px 0;
+}
+
+.barreNavigation{
+    position: sticky;
+    width: 30%;
+    top: 2%;
+    display: block;
+    float: left;
+}
+
+.divAbonnements{
+    width: 100%;
+    margin: 20px 30px;
+    padding: 15px;
+    background: linear-gradient(70deg, rgb(15, 184, 226), rgb(77, 210, 255));
+    border-radius: 15px;
+    color: white;
+}
+
+.divAbonnements h3{
+    text-align: center;
+    font-size: 30px;
+}

@@ -1,0 +1,124 @@
+.boxMonCompte{
+    margin: 2%;
+    width: 100%;
+
+}
+
+.divMonCompte{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    left: 5%;
+    margin: 10px 0;
+}
+
+.barreNavigation{
+    position: sticky;
+    width: 30%;
+    top: 2%;
+    display: block;
+    float: left;
+}
+
+.divAdresses{
+    width: 100%;
+    margin: 20px 30px;
+    padding: 15px;
+    background: linear-gradient(70deg, rgb(15, 184, 226), rgb(77, 210, 255));
+    border-radius: 15px;
+    color: white;
+}
+
+.divAdresses h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.listeAdresse{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.divButtons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.divAdresse{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.adressePrincipale{
+    background: white;
+    color: black;
+}
+
+.adresseSecondaire{
+    background: papayawhip;
+    color: black;
+}
+
+.adresse{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.button {
+    padding: 5px;
+    font-size: 18px;
+    background : linear-gradient(90deg,  #f2ccff, #d1b3ff);
+    width: 80%;
+    border-radius: 100px;
+    color: white;
+    text-shadow: #a6a6a6 1px 1px, #a6a6a6 -1px 1px, #a6a6a6 -1px -1px, #a6a6a6 1px -1px;
+    border-radius: 1.5px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+
+
+
+.ripple {
+    opacity: 0;
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, .35);
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: ripple;
+    animation-name: ripple;
+}
+
+
+@keyframes ripple {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(165);
+    }
+}
+
+h5 {
+    font-size: 18px;
+    margin: 0 auto 0 0;
+
+}

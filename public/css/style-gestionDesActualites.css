@@ -1,0 +1,93 @@
+.boxMonCompte{
+    margin: 2%;
+    width: 100%;
+
+}
+
+.divMonCompte{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    left: 5%;
+    margin: 10px 0;
+}
+
+.barreNavigation{
+    position: sticky;
+    width: 30%;
+    top: 2%;
+    display: block;
+    float: left;
+}
+
+
+.divGestionDesActualites{
+    width: 100%;
+    margin: 20px 30px;
+    padding: 15px;
+    background: linear-gradient(70deg, rgb(15, 184, 226), rgb(77, 210, 255));
+    border-radius: 15px;
+    color: white;
+}
+
+.divGestionDesActualites h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.contenaireGestionActualite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.contenaireGestionActualite input {
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 10px;
+    margin: 5px;
+    color: grey;
+}
+
+
+.contenaireGestionActualite table {
+    width: 100%;
+    border: 1px solid lightgrey;
+    background: #fff;
+}
+
+
+
+.contenaireGestionActualite table td,.contenaireGestionActualite table th{
+    width: 100px;
+    background: #fff;
+    border:  1px solid lightgrey;
+}
+
+
+table th {
+    font-size: 20px;
+}
+    
+.btnSuppression input{
+    background-color: darkred;
+    color: #fff;
+}
+
+.btnModif input{
+    background-color: #ffcc00;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+

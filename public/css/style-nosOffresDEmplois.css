@@ -1,0 +1,53 @@
+.candidature .listeCandidature{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.offre{
+    margin: 10px;
+}
+
+.offreEmploi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(70deg, rgb(15, 184, 226), rgb(77, 210, 255));
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.taille{
+    width: 50%;
+}
+
+.card-footer{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+}

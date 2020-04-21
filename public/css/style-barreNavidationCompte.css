@@ -1,0 +1,206 @@
+.vertical-menu {
+    margin-bottom: 30px;
+}
+
+.vertical-menu a {
+    background-color: white; 
+    color: black; 
+    display: block; 
+    padding: 20px; 
+    text-decoration: none; 
+    text-align: center;
+}
+
+.vertical-menu a:hover {
+    background: linear-gradient(70deg, rgb(102, 217, 255), rgb(0, 230, 230));
+    color: white;
+}
+
+.vertical-menu a.active {
+    background: linear-gradient(70deg,rgb(51, 133, 255), rgb(102, 102, 255));
+    color: white;
+}
+
+
+.vertical-menu a.home{
+    background-color: #0d0d0d;
+    color: white;
+}
+
+.borderAction {
+    display: block;
+    text-align: center;
+      background-color:  #ccffff;
+      color: grey;
+      padding: 20px;
+      width: 100%;
+      border-radius: 25px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+
+.buttonAction{
+    background: linear-gradient(-30deg, #002233 50%, #2b0808 50%);
+    padding: 15px 25px;
+    margin: 5px;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    overflow: hidden;
+    color: #ccffdd;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  }
+  
+  .buttonAction::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #99ddff;
+    opacity: 0;
+    -webkit-transition: .2s opacity ease-in-out;
+    transition: .2s opacity ease-in-out;
+  }
+  
+  .buttonAction:hover::before {
+    opacity: 0.2;
+  }
+  
+  .buttonAction span {
+    position: absolute;
+  }
+  
+  .buttonAction span:nth-child(1) {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: -webkit-gradient(linear, right top, left top, from(rgba(43, 8, 8, 0)), to(#1670f0));
+    background: linear-gradient(to left, rgba(43, 8, 8, 0), #1670f0);
+    -webkit-animation: 2s animateTop linear infinite;
+            animation: 2s animateTop linear infinite;
+  }
+  
+  @keyframes animateTop {
+    0% {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+    }
+    100% {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+  }
+  
+  .buttonAction span:nth-child(2) {
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 2px;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(43, 8, 8, 0)), to(#1670f0));
+    background: linear-gradient(to top, rgba(43, 8, 8, 0), #1670f0);
+    -webkit-animation: 2s animateRight linear -1s infinite;
+            animation: 2s animateRight linear -1s infinite;
+  }
+  
+  @keyframes animateRight {
+    0% {
+      -webkit-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+    }
+  }
+  
+  .buttonAction span:nth-child(3) {
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(43, 8, 8, 0)), to(#1670f0));
+    background: linear-gradient(to right, rgba(43, 8, 8, 0), #1670f0);
+    -webkit-animation: 2s animateBottom linear infinite;
+            animation: 2s animateBottom linear infinite;
+  }
+  
+  @keyframes animateBottom {
+    0% {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+    100% {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+    }
+  }
+  
+  .buttonAction span:nth-child(4) {
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 2px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(43, 8, 8, 0)), to(#1670f0));
+    background: linear-gradient(to bottom, rgba(43, 8, 8, 0), #1670f0);
+    -webkit-animation: 2s animateLeft linear -1s infinite;
+            animation: 2s animateLeft linear -1s infinite;
+  }
+  
+  @keyframes animateLeft {
+    0% {
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+    }
+    100% {
+      -webkit-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+  }
+  
+
+  
+.button {
+    padding: 5px 10px;
+    font-size: 18px;
+    background : linear-gradient(90deg,  #0625d4, #1587f1);
+
+    border-radius: 100px;
+    color: white;
+    border-radius: 1.5px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+
+
+
+.ripple {
+    opacity: 0;
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, .35);
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: ripple;
+    animation-name: ripple;
+}
+
+
+@keyframes ripple {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(165);
+    }
+}

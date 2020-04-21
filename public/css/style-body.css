@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:900);
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Cardo:400italic);
+body {
+	margin: 0;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	background: linear-gradient(-45deg, #c8c8c7, #7a888e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+main .container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1100px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: beige;
+	color: grey;
+}
+
+.alert {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.alert-success{
+	color: #00802b;
+    background-color: #ccffcc;
+    border-color: #ebccd1;
+}
+
+.containerAll {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 100%;
+}

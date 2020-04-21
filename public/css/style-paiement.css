@@ -1,0 +1,62 @@
+.containerAll {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border: 1px solid red;
+
+}
+
+.divPaiement{
+    width: 100%;
+    padding: 50px;
+}
+
+.barreCommande{
+    width: 100%;
+}
+
+.paiement{
+    width: 100%;
+}
+
+.divMoyenPaiment{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.listeCarteCB{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardCB{
+    background: lavenderblush;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.divInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.ajoutCarteBancaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}

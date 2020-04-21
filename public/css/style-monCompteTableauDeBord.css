@@ -1,0 +1,99 @@
+.boxMonCompte{
+    margin: 2%;
+    width: 100%;
+
+}
+
+.divMonCompte{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    left: 5%;
+    margin: 10px 0;
+}
+
+.barreNavigation{
+    position: sticky;
+    width: 30%;
+    top: 0;
+    display: block;
+    float: left;
+}
+
+
+.divTableauDeBord{
+    margin: 20px 30px;
+    padding: 15px;
+    width: 100%;
+    background: linear-gradient(70deg, rgb(15, 184, 226), rgb(77, 210, 255));
+    border-radius: 15px;
+    color: white;
+}
+
+
+.divTableauDeBord h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.tableauDeBord {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.partieGauche{
+    width: 50%;
+}
+
+.partieDroite{
+    width: 50%;
+}
+
+
+
+.listeTop10Article li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+}
+
+
+.listeTop10Article {
+background-color:  #ccffff;
+color: grey;
+padding: 20px;
+width: 100%;
+border-radius: 25px;
+}
+
+
+.top10Article{
+    margin: 10px;
+}
+
+.partieDroite{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.performanceDeLaCompagnie{
+    padding: 20px;
+    background: white;
+}
+
+.diagramme{
+    margin: 10px;
+}
+
+label{
+    font-size: 18px;
+}

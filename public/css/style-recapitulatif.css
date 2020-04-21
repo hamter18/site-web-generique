@@ -1,0 +1,104 @@
+.containerAll {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.divRecapitulatif{
+    width: 100%;
+    padding: 50px;
+}
+
+.barreCommande{
+    width: 100%;
+}
+
+.myTablePanier {
+    border-collapse: collapse;
+    width: 100%; 
+    border: 1px solid #ddd; 
+    font-size: 18px;
+    background: lightsteelblue;
+}
+
+.myTablePanier th{
+    background: lightgray;
+}
+
+.myTablePanier th, .myTablePanier td {
+    text-align: center; 
+    padding: 10px; 
+}
+
+.myTablePanier tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.myTablePanier tr.header, .myTablePanier tr:hover {
+    background-color: red;
+}
+
+.livraisonTotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.livraisonTotal .detail{
+    width: 50%;
+}
+
+.livraisonTotal .divPrix{
+    width: 50%;
+}
+
+.divAdresse{
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.divAdresses h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.adressePrincipale{
+    background: white;
+    color: black;
+}
+
+.adresseSecondaire{
+    background: papayawhip;
+    color: black;
+}
+
+
+
+
+
+
+
+.cardCB{
+    background: lavenderblush;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+
+
+.divPrix{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

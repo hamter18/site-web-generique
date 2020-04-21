@@ -1,0 +1,128 @@
+.boxMonCompte{
+  margin: 2%;
+  width: 100%;
+
+}
+
+.divMonCompte{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  left: 5%;
+  margin: 10px 0;
+}
+
+.barreNavigation{
+  position: sticky;
+  width: 30%;
+  top: 2%;
+  display: block;
+  float: left;
+}
+
+
+
+.divListeDesMembres{
+    margin: 20px 30px;
+    padding: 15px;
+    width: 100%;
+    background: linear-gradient(70deg, rgb(15, 184, 226), rgb(77, 210, 255));
+    border-radius: 15px;
+    color: white;
+}
+
+
+.divListeDesMembres h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.image {
+    width: 200px;
+    height: 225px;
+  }
+  
+.simpleMembre{
+    background-color: #008CBA;
+}
+
+.admin {
+    background-color: red;
+}
+
+
+  .overlay {
+    position: absolute;
+    overflow: hidden;
+    width: 200px;
+    height: 225px;
+    height:0;
+    transition: .5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .containerImage:hover .overlay {
+    height: 225px;
+    width: 200px;
+  }
+
+  .containerImage{
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  
+  .text {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text p {
+    font-size: 12px;
+  }
+
+  .liste{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+
+  .avatar  img {
+    max-width: 60px;
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  
+  .avatar  {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .allPrintToPDF{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn{
+    padding: 2px 5px;
+    background: linear-gradient(-30deg, #002233 50%, #2b0808 50%);
+    color: #ccffdd;
+    -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  }

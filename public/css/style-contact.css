@@ -1,0 +1,246 @@
+.contentAll{
+    margin: 25px;
+}
+
+.divContact{
+    display: flex;
+    flex-direction: row;
+}
+
+.divInfoContact{
+    flex-direction: column;
+}
+
+.alignementLogo{
+    display: flex;
+    align-items: center;
+}
+
+.divContact i{
+    margin: 10px;
+}
+
+.lienContact{
+    padding: 0;
+    margin: 0;
+}
+
+.contentInfo{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentMap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    padding: 0 0 0 50px;
+}
+
+
+
+
+
+
+
+
+.scroller{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.postChat input{
+  width: 80%;
+  font-size: 10px;
+}
+
+
+
+.postChat{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.tchatinfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tchatBtn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.formChatt{
+    background-color: #404040;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    z-index: 9;
+    padding: 0.5%;
+    width: 400px;
+    height: 450px;
+    clear: both;
+}
+
+
+  .open-button {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+  }
+  .open-button,   .open-button:hover,   .open-button:active,   .open-button:visited {
+    color: #600080;
+  }
+
+  .chat-popup{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    z-index: 9;
+  }
+
+
+
+
+
+
+
+
+
+
+
+   /* Chat containers */
+   .containerMsg {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+
+  }
+
+  .formChatt {
+    font-size: 10px;
+
+  }
+  
+  /* Darker chat container */
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+
+  }
+  
+  /* Clear floats */
+  .containerMsg::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Style images */
+  .containerMsg img {
+    float: left;
+    max-width: 40px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Style the right image */
+  .containerMsg .right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  /* Style time text */
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  /* Style time text */
+  .time-left {
+    float: left;
+    color: #999;
+  } 
+
+
+  .containerMsg p {
+      text-align: center;
+      color: black;
+  }
+
+
+  .tchatinfo button {
+    border-radius: 25px;
+    background: #ddd;
+    width: 100%;
+    padding: 10px;
+  }
+
+
+  .tchatBtn{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+
+
+  .tchat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .enlargeChat{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+
+  .closeChat{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    cursor: pointer;
+  }

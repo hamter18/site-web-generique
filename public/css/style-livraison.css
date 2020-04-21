@@ -1,0 +1,55 @@
+.containerAll {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.divLivraison{
+    width: 100%;
+    padding: 50px;
+}
+
+.barreCommande{
+    width: 100%;
+}
+
+.divAdresse{
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.divAdresses h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.adressePrincipale{
+    background: white;
+    color: black;
+}
+
+.adresseSecondaire{
+    background: papayawhip;
+    color: black;
+}
+
+.mesAdresse{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.infoLivraison{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+

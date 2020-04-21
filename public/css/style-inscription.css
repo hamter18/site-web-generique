@@ -1,0 +1,116 @@
+.boxInscription{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    background: rgba(0,0,0, .8);
+    box-sizing: border-box;
+    background: rgba(0,0,0, .8);
+    border-radius: 10px;
+}
+
+.formInscription{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boxInscription h2 {
+    margin : 0;
+    color: white;
+    text-align: center;
+}
+
+
+.boxInscription input[type="submit"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    background: yellowgreen;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.divInscription .inputBox{
+    position: relative;
+    margin: 0 25px;
+}
+
+.divInscription .inputBox input{
+    width: 100%;
+    padding: 5px;
+    color: white;
+    letter-spacing: 1px;
+    border : none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+label{
+    margin: 10px;
+}
+
+.inputImage{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.inputImage input[type="submit"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    background: rgb(15, 184, 226);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.divInscription .inputBox {
+    margin: 20px;
+}
+
+label{
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    pointer-events: none;
+    transition: .5s
+}
+
+.divInscriptionChamps{
+    display: flex;
+    flex-direction: row;
+}
+
+.alignementLogo{
+    display: flex;
+    align-items: center;
+}
+
+i{
+    margin: 0 5px;
+}

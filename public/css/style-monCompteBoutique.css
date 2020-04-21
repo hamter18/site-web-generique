@@ -1,0 +1,218 @@
+.boxMonCompte{
+    margin: 2%;
+    width: 100%;
+
+}
+
+.divMonCompte{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    left: 5%;
+    margin: 10px 0;
+}
+
+
+.divAction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.divAction p {
+    text-align: center;
+    
+}
+
+.borderAction {
+    background-color:  #ccffff;
+    color: grey;
+    padding: 20px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+
+
+.divContainerAction{
+    border-bottom: 1.5px solid #d9d9d9;
+    padding: 10px;
+    width: 100%;
+}
+
+.ajoutProduit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divInput textarea {
+    border-radius: 15px;
+    line-height: 1.5;
+    resize: none;
+    width: 100%;
+    text-align: center;
+}
+
+
+.divInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.divAction .input input {
+    width: 40%;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0 5px;
+}
+
+.divContainerAction:last-child{
+    border-bottom: 0;
+}
+
+.listeProduitRupture li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+}
+
+.listeProduitRupture li label{
+    width: 40%;
+
+}
+.listeProduitRupture li .quantite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonAction{
+    height: auto;
+}
+.listeProduitRupture button{
+    flex-grow: 3;
+}
+
+.divInfoMembres h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.barreNavigation{
+    position: sticky;
+    width: 30%;
+    top: 2%;
+    display: block;
+    float: left;
+}
+
+.divGestion{
+    width: 100%;
+    margin: 20px 30px;
+    padding: 15px;
+    background: linear-gradient(0.25turn, #66b3ff, #00bfff, #99e6ff);
+    border-radius: 15px;
+    color: white;
+}
+
+
+.divGestion h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.inputTaille input{
+    background-color: #66d9ff;
+    width: auto;
+}
+
+.inputTaille input:hover{
+    background-color: rgb(128, 179, 255);
+}
+
+
+.file {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    border-radius: 0%;
+    width: auto;
+}
+
+
+.ficheIdentite{
+    background:  white;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding: 10px;
+}
+
+.ficheIdentite label{
+    color: grey;
+}
+
+.buttonIcon{
+background-color:  #66d9ff;
+border: none; 
+padding: 12px 16px;
+cursor: pointer;
+border-radius: 50%;
+}
+
+/* Darker background on mouse-over */
+.buttonIcon:hover {
+    background-color: rgb(128, 179, 255);
+}
+
+.modif{
+    background:  #cce6ff;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding: 10px;
+
+}
+
+
+#articleAModifier{
+    display: none;
+}
+
+#articleASupprimer{
+    display: none;
+}
+
+.rechercheArticle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.borderAction .ficheIdentiter {
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}

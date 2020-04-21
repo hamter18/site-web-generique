@@ -1,0 +1,71 @@
+.containerAll {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.listeDesForums{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.listeDesForums .forum {
+    background: grey;
+    margin: 0;
+    width: 25%;
+    padding: 15px 0;
+    border: 2px solid black ;
+}
+
+.listeDesForums input {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.listetopic li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+}
+
+
+.listetopic {
+background-color:  #ccffff;
+color: grey;
+padding: 20px;
+width: 100%;
+border-radius: 25px;
+}
+
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination button{
+    border-radius: 50%;
+    padding: 16px;
+    font-size: 20px;
+    background-color: #e7e7e7;
+    color: black;
+}
+
+.pagination button.active {background-color: #a3a3c2;}
+
+.pagination button:hover:not(.active) {background-color: #e7e7e7;}
+
+.pagination button:hover{
+        background-image: linear-gradient(to right, #b3ecff 0%, #80dfff 100%); 
+    }

@@ -1,0 +1,37 @@
+<?php
+    require('../public/pdf/fpdf.php');
+    $pdf = new FPDF();
+    $pdf->AddPage();
+    $file = '../public/image/membre/'.$_POST['pseudo'].'.jpg';
+    $pdf->Image($file,150,6,50);
+    $pdf->SetFont('Arial', 'B', 16);
+    $pdf->Cell(40, 10, 'Statu :');
+    $pdf->SetFont('Arial', '', 14);
+    $pdf->Cell(60, 10, $_POST['statu']);
+    $pdf->Ln(20);
+    $pdf->SetFont('Arial', 'B', 16);
+    $pdf->Cell(40, 10, 'Pseudo :');
+    $pdf->SetFont('Arial', '', 14);
+    $pdf->Cell(60, 10, $_POST['pseudo']);
+    $pdf->Ln(20);
+    $pdf->SetFont('Arial', 'B', 16);
+    $pdf->Cell(40, 10, 'Nom :');
+    $pdf->SetFont('Arial', '', 14);
+    $pdf->Cell(60, 10, $_POST['nom']);
+    $pdf->Ln(20);
+    $pdf->SetFont('Arial', 'B', 16);
+    $pdf->Cell(40, 10, 'Prenom :');
+    $pdf->SetFont('Arial', '', 14);
+    $pdf->Cell(60, 10, $_POST['prenom']);
+    $pdf->Ln(20);
+    $pdf->SetFont('Arial', 'B', 16);
+    $pdf->Cell(40, 10, 'Email :');
+    $pdf->SetFont('Arial', '', 14);
+    $pdf->Cell(60, 10, $_POST['email']);
+    $pdf->Ln(20);
+    $pdf->SetFont('Arial', 'B', 16);
+    $pdf->Cell(40, 10, 'Telephone :');
+    $pdf->SetFont('Arial', '', 14);
+    $pdf->Cell(60, 10, $_POST['telephone']);
+    $pdf->Output();
+?>
